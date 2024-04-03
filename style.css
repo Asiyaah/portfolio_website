@@ -1,0 +1,75 @@
+.project {
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+#skills {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+}
+
+.html {
+    width: 90%; /* Change the width to represent proficiency (0% - 100%) */
+    background-color: #626365; /* HTML color */
+}
+
+.css {
+    width: 80%; /* Change the width to represent proficiency (0% - 100%) */
+    background-color:  #626365;
+} 
+
+.js{
+    width: 50%; /* Change the width to represent proficiency (0% - 100%) */
+    background-color: #626365;
+}
+
